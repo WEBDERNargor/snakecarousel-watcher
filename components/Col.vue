@@ -10,7 +10,7 @@ const items = [
   'https://picsum.photos/600/800?random=6'
 ];
 const emits=defineEmits(["onGo","onBack"])
-const carouselRef = ref(null);
+const carouselRef:any = ref(null);
 
 const props = defineProps({
   onGo: Function,
